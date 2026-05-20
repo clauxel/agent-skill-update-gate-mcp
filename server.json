@@ -1,13 +1,11 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.clauxel.agentskillupdategate/agentskillupdategate-mcp",
-  "description": "Agent Skill Update Gate is a hosted remote MCP for Claude Code skill update gate MCP.",
+  "title": "Agent Skill Update Gate MCP",
+  "description": "Paid remote MCP for Claude Code skill update gate MCP, structured receipts, audit logs, and reviewer-ready evidence.",
   "version": "1.0.0",
-  "website_url": "https://agentskillupdategate.clauxel.com/",
-  "repository": {
-    "url": "https://github.com/clauxel/agent-skill-update-gate-mcp",
-    "source": "github"
-  },
+  "websiteUrl": "https://agentskillupdategate.clauxel.com/",
+  "documentationUrl": "https://github.com/clauxel/agent-skill-update-gate-mcp",
+  "serverCardUrl": "https://agentskillupdategate.clauxel.com/server-card.json",
   "remotes": [
     {
       "type": "streamable-http",
@@ -15,17 +13,16 @@
       "headers": [
         {
           "name": "Authorization",
-          "description": "Bearer token from the product website.",
-          "is_required": true,
-          "is_secret": true
+          "description": "Bearer token from the product website."
         }
       ]
     }
   ],
-  "_meta": {
-    "io.modelcontextprotocol.registry/publisher-provided": {
-      "title": "Agent Skill Update Gate MCP",
-      "server_card_url": "https://agentskillupdategate.clauxel.com/server-card.json"
-    }
-  }
+  "tags": [
+    "claude",
+    "code",
+    "skill",
+    "update",
+    "agent"
+  ]
 }
