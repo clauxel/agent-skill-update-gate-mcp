@@ -1,0 +1,15 @@
+# Agent Skill Update Gate
+
+Agent Skill Update Gate is a hosted remote MCP for Claude Code skill update gate MCP.
+
+Website: https://agentskillupdategate.clauxel.com/
+Docs pattern reference: https://github.com/clauxel/MiroFish
+Primary keyword: Claude Code skill update gate MCP
+Type: MCP
+Default plan: team
+MCP endpoint: https://agentskillupdategate.clauxel.com/mcp
+Server card: https://agentskillupdategate.clauxel.com/server-card.json
+Registry name: com.clauxel.agentskillupdategate/agentskillupdategate-mcp
+Tools: check_skill_update_gate, compare_skill_manifest, issue_update_receipt, assign_skill_owner, export_skill_update_log
+
+Public boundary: docs-only repository; no production source code or secrets.
